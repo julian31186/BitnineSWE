@@ -17,7 +17,7 @@ public class Add_Subtract {
 				String calc = input.nextLine();
 				System.out.println(calculate(calc));
 
-			} catch (NumTooLargeException e) {    //catch num too large error  or invalid arithmetic sequence
+			} catch (NumTooLargeException e) {    //catch num too large error  or invalid expression
 				System.out.println("Please enter numbers below 100,000,000!");
 			} catch (NumberFormatException e) {
 				System.out.println("Please enter a valid arithmetic sequence!");
